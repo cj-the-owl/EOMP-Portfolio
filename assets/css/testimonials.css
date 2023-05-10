@@ -46,7 +46,6 @@ body {
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border: 1px solid coral;
     border-radius: 1rem;
   }
   
@@ -57,4 +56,10 @@ body {
   .flip-card-back {
     color: white;
     transform: rotateY(180deg);
+  }
+
+  .flip-card-img {
+    width:190px;
+    height: 254px;
+    border-radius: 3px
   }

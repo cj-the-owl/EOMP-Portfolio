@@ -25,6 +25,12 @@ img {
     border-radius:100%;
 }
 
+.icons {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
 
   @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
   main {

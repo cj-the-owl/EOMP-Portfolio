@@ -43,7 +43,7 @@
   <div class="container-md p-5">
     <main>
       <div class="animate_animated animate__bounce animate__repeat-infinite">
-        <h1 class="p-5 text-center text-black fw-bold animate_animated animate__bounce animate__repeat-infinite">Contact Me</h1>
+        <h1 class="p-5 text-center text-black fw-bold animate__animated animate__bounce animate_slow animate__infinite">Contact Me</h1>
       </div>
       <div class="p-5 mb-5 rounded-3  border border-2 border-black">
         <div class="container-fluid py-5">
@@ -51,17 +51,17 @@
             <div class="row">
                 <div class="col">
                     <label for="first name" class="form-label text-black fw-bolder">First Name</label>
-                  <input type="text" class="form-control" id="first name" name="first name" placeholder="First name" aria-label="First name">
+                  <input type="text" class="form-control" id="first name" name="first name" placeholder="First name" aria-label="First name" required>
                 </div>
                 <div class="col">
                     <label for="last name" class="form-label text-black fw-bolder">Last Name</label>
-                  <input type="text" class="form-control" id="last name" name="last name" placeholder="Last name" aria-label="Last name">
+                  <input type="text" class="form-control" id="last name" name="last name" placeholder="Last name" aria-label="Last name" required>
                 </div>
               </div>
         </div>
         <div class="mb-3">
             <label for="email" class="form-label text-black fw-bolder">Email address</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Enter email here">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter email here" required>
           </div>
           <div class="mb-3">
             <label for="message" class="form-label text-black fw-bolder">Message</label>
@@ -73,7 +73,13 @@
   </main>
 </div>
 
-  <footer class="pt-2 mt-4 mb-3 text-black text-center">
+  <footer class="p-4 mb-4 border-top border-black text-black text-center">
+    <p class="fw-bold">FOLLOW ME!</p>
+    <ul class="list-unstyled d-flex justify-content-center gap-2">
+      <li><a href="https://www.instagram.com/cj.the.owl/"><img src="icons/icons8-instagram.gif"></a></li>
+      <li><a href="https://github.com/cj-the-owl"><img src="icons/icons8-github.gif"></a></li>
+      <li><img src="./icons/icons8-linkedin-circled.gif"> </li>
+    </ul>
     &copy; 2023 cj-the-owl
   </footer>
 

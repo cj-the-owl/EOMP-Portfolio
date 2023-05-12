@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url(../images/61381d9e4bd300056d6c05a45c39e563.jpeg);
+    background-color: #DF821B !important;
     font-family: "Permanent Marker";
 
 }
@@ -29,6 +29,6 @@ img {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-h1 {
+h1, h3, h6 {
     font-family: "Press Start 2P", "consolas"
 }

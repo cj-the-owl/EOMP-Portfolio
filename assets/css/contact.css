@@ -3,9 +3,10 @@ img {
     height: 50px;
     border-radius:100%;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 body {
     background-image: url(../images/61381d9e4bd300056d6c05a45c39e563.jpeg);
+    font-family: "Oxygen" !important;
 }
 
 .icons {

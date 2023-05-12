@@ -19,6 +19,10 @@ body {
   border-radius: 30px;
 }   
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+h1 {
+    font-family: "Press Start 2P", "consolas"
+}
 /* ---------Flip cards start------------ */
 
 .flip-card {

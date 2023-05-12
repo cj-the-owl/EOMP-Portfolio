@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 
 body {
     background-image: url(../images/61381d9e4bd300056d6c05a45c39e563.jpeg);
@@ -26,4 +26,9 @@ img {
 .nav-item:hover {
     background-color: #8AB89A;
     border-radius: 30px;
-}   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+h1 {
+    font-family: "Press Start 2P", "consolas"
+}

@@ -8,3 +8,14 @@ body {
     background-image: url(../images/61381d9e4bd300056d6c05a45c39e563.jpeg);
 }
 
+.icons {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.nav-item:hover {
+    background-color: #8AB89A;
+    border-radius: 30px;
+}   
+

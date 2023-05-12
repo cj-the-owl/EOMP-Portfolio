@@ -31,8 +31,12 @@ img {
     border-radius: 100%;
 }
 
+.nav-item:hover {
+    background-color: #8AB89A;
+    border-radius: 30px;
+}   
 
-  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-  main {
-    font-family: 'Permanent Marker', cursive;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+h1 {
+    font-family: "Press Start 2P", "consolas"
+}
